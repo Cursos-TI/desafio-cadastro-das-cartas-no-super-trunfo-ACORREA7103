@@ -60,7 +60,7 @@ int main() {
 
 
     printf("Digite o Estado: \n");
-    scanf("%c",&estado1);
+    scanf(" %c",&estado1);
     printf("Digite o Código da Cidade: \n");
     scanf("%s",&codigo1);
     printf("Digite o Nome da Cidade: \n");
