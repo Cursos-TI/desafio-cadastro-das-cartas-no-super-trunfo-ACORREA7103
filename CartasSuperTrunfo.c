@@ -26,7 +26,7 @@ int main() {
     scanf("%c",&estado);
     
     printf("Digite o Código da Cidade: \n");
-    scanf("%d",&codigo);
+    scanf("%s",&codigo);
 
     printf("Digite o Nome da Cidade: \n");
     scanf("%s",&nome);
@@ -49,7 +49,7 @@ int main() {
 
     printf("Carta 1:\n");
     printf("Estado: %c\n", estado);
-    printf("Código: %d\n", codigo);
+    printf("Código: %c%s\n", estado, codigo);
     printf("Nome da Cidade: %s\n", nome);
     printf("População: %d\n", populacao);
     printf("Área: %f km²\n", area);
