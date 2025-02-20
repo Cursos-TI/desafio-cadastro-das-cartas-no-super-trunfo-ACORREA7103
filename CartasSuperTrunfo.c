@@ -4,12 +4,13 @@
 // Tema 1 - Cadastro das Cartas
 // Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
 // Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
+// Teste Alexandre Correa
 
 int main() {
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
+    // Definição da váriaveis para a carta 1.
     char estado;
     char codigo[50];
     char nome[50];
@@ -18,6 +19,7 @@ int main() {
     float PIB;
     int pontosturisticos;
 
+    // Definição da váriaveis para a carta 1.
     char estado1;
     char codigo1[50];
     char nome1[50];
@@ -30,6 +32,7 @@ int main() {
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
     
+    // Coleta de Dados para a carta 1.
     printf("Digite o Estado: \n");
     scanf("%c",&estado);
     printf("Digite o Código da Cidade: \n");
@@ -49,6 +52,7 @@ int main() {
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
+    // Impressão dos dados da carta 1.
     printf("Carta 1:\n");
     printf("Estado: %c\n", estado);
     printf("Código: %c%s\n", estado, codigo);
@@ -58,7 +62,7 @@ int main() {
     printf("PIB: %f bilhões de reais\n", PIB);
     printf("Número de Pontos Turísticos: %d\n\n", pontosturisticos);
 
-
+    // Coleta de Dados para a carta 2.
     printf("Digite o Estado: \n");
     scanf(" %c",&estado1);
     printf("Digite o Código da Cidade: \n");
@@ -74,6 +78,7 @@ int main() {
     printf("Digite a Quantidade de Pontos Turísticos Existentes na Cidade: \n");
     scanf("%d",&pontosturisticos1);
 
+    // Impressão dos dados da carta 2.
     printf("Carta 2:\n");
     printf("Estado: %c\n", estado1);
     printf("Código: %c%s\n", estado1, codigo1);
